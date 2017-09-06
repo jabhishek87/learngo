@@ -1,7 +1,7 @@
 # Hello World
 
 
-[Home](README) || [Next](#)
+[Home](README.md) || [Next](values.md)
 
 ```go
 package main
