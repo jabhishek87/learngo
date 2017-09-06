@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Learn Go By Example
 
 You can use the [editor on GitHub](https://github.com/abhishek-jaiswal/learngo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
