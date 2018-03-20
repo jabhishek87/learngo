@@ -1,0 +1,36 @@
+course resourse :  https://goo.gl/PHKgO7
+code ex         :  https://github.com/GoesToEleven/GolangTraining
+github code     : https://goo.gl/KbUroF
+presentation    : https://goo.gl/Tbz6Xf
+
+main features of go
+1. Performance, go is the best performance programming language after C, C is very hard to code
+2. Go can natively use multiple cores  for scaling
+3. go handle concurrency very well,
+4. compiled language,
+5. it is written to run well in networking environment (clustering)
+6. clean syntax (can pass error, no try catch)
+7. powerful standard library run natively,
+8. garbage collector
+9. portable
+10. opensouce backed by google
+
+
+# packages
+1. package Declaration
+    to make a package , import the folder name in to file
+    e.g, package <foldername/packagename>
+
+2. Package Scope
+    capitalization:
+        capitalize: exported , visible outside of the package
+        function start with capital letter can be used outside package,
+    lowercase:
+        unexported, not visible outside the package
+        function start with lower case cannot be used outside packages only used in side packages
+
+3. two primary ways to declare variable
+    shortand: can only be used inside func
+    var : assign default values (it declares, assign, and iitiliaze )
+
+
