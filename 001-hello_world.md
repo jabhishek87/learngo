@@ -1,7 +1,7 @@
 # Hello World
 
 
-[Home](README.md) || [Next](values.md)
+[Home](README.md) || [Next](002-variable.md)
 
 ```go
 package main
