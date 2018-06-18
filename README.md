@@ -8,7 +8,29 @@ You can use the [editor on GitHub](https://github.com/abhishek-jaiswal/learngo/e
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### What is GOLANG ?
+
+A open source Programming language Developed by `Google`.
+Concurrent, garbage-collected, builds fast at scale
+
+Go is designed specifically as a systems programming language for large, distributed systems and highly-scalable network servers. In that vein, it replaces C++ and Java in Google's software stack
+
+
+### Features of GOLANG:
+
+- The go language is very concise, simple and safe.
+
+- It’s compilation time is very fast.
+
+- It supports the patterns which adapt to the surrounding environment similar to dynamic languages.
+
+- It supports inbuilt concurrency such as lightweight processes channels and select statements.
+
+- It supports the interfaces and the embedded types.
+
+- It doesn’t require any external dependencies for the production of the statically linked native binaries.
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
