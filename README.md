@@ -1,5 +1,5 @@
 ## Learn Go By Example
-[https://jkabhishek.github.io/learngo/](https://jkabhishek.github.io/learngo/)
+[https://jabhishek87.github.io/learngo/](https://jabhishek87.github.io/learngo/)
 ### contents
 
 [1. Hello World](001-hello_world.md)
