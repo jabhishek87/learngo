@@ -26,8 +26,7 @@ def get_all_files(root_dir):
 def render_template(context):
     PATH = os.path.dirname(os.path.abspath(__file__))
     TEMPLATE_ENVIRONMENT = jinja2.Environment(
-        autoescape=False,
-        loader=jinja2.FileSystemLoader(os.path.join(PATH, 'templates')),
+        autoescape=True, loader=jinja2.FileSystemLoader(os.path.join(PATH, 'templates')),
         trim_blocks=False)
     return TEMPLATE_ENVIRONMENT.get_template('template.md.j2').render(context)
 
