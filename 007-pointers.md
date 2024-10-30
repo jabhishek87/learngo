@@ -1,7 +1,7 @@
 # 007-pointers
 
 
-[Prev](006-memory-address.md) || [Next](README.md)
+[Prev](006-memory-address.md) || [Next](008-loop.md)
 
 ```go
 package main

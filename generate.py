@@ -1,4 +1,4 @@
-from itertools import tee, islice, chain, izip
+from itertools import tee, islice, chain
 import os
 import jinja2
 
@@ -8,11 +8,11 @@ def previous_and_next(some_iterable):
     prevs, items, nexts = tee(some_iterable, 3)
     prevs = chain([None], prevs)
     nexts = chain(islice(nexts, 1, None), [None])
-    return izip(prevs, items, nexts)   
+    return zip(prevs, items, nexts)
 
 def get_all_files(root_dir):
     """[summary]
-    
+
     :param root_dir: [description]
     :type root_dir: [type]
     """
@@ -46,7 +46,7 @@ def get_markdown_filename(filepath):
 
 def create_md_page():
     """[summary]
-    
+
     """
     all_src_files = get_all_files(SRC_DIR)
     for previous, filepath, nxt in previous_and_next(all_src_files):
@@ -62,7 +62,7 @@ def create_md_page():
                 'code':source,
                 'filepath': filepath,
                 '_next': nxt,
-                '_prev': previous,   
+                '_prev': previous,
                 'title': os.path.splitext(markdown)[0]
             })
             write_file(markdown, template_str)
